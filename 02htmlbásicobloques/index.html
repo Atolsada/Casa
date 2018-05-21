@@ -11,8 +11,11 @@
     .titini{
         display: block;
         font-size: 1.5rem;
-    }
+        }
 
+    .separado{
+        padding-inline-start: 5rem;
+        }
     </style>
 
 </head>
@@ -21,23 +24,60 @@
     <header>
 
         <h1>HTML básico.
-            <span class="Titini"> Introducción a los Bloques</span>
+            <span class="Titini"></span> Introducción a los Bloques</span>
         </h1>
 
     </header>
     
-    <nav>Aquí irían las pestañas de navegación</nav>
+    <nav>Aquí irían las pestañas de navegación
+        <hr>
+    </nav>
 
     <main>
         <article>
-
-
+            <h2>TIPOSHTML</h2>
+                <pre>Texto escrito tal cual respetando
+                    todo incluso salto de línea, usado en 
+                    poemas, por ejemplo.
+                </pre>
+                <p>
+                    Es <span class="separado"> una separación de 5rem en el párrafo</span>
+                </p>
         </article>
+        <article>
+            <h2>LISTAS</h2>
+                <ol>
+                    <li>Peces</li>
+                    <li>Reptiles
+                        <ul>
+                            <li>Reptan</li>
+                            <li>Andan</li>
+                        </ul>
+                    </li>
+                </ol>
+        </article>
+        <article>
+            <h2>DEFINICIONES</h2>
+                <dl>
+                    <dt>Que vuelan</dt>
+                    <dd>Pío, pío</dd>
+                    <dt>Que escalan</dt>
+                    <dd>¡No subas ahí!</dd>
+                </dl>
+        
+            <h3>DESPLEGABLE</h3>
+                <details>
+                    <summary>Aquí está el spoiler</summary>
+                    <p>Este es el spoiler</p>
+                </details>
+            </article>
 
     </main>
 
     <aside>
-
+        <p> Ahora empieza el aside </p>
+        <hr>
+        <p> Aquí termina el aside </p>
     </aside>
 
     <footer>
